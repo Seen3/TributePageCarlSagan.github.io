@@ -1,0 +1,74 @@
+body{
+    background:url(https://wallpaperaccess.com/full/39608.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    width:80%;
+    margin: 0 auto;
+    background-color: hsla(240, 42%, 78%,0.7);
+    font-family:'Red Rose', sans-serif;
+    border:0.3em double hsl(240, 40%, 47%);
+    border-radius: 2em;
+}
+header h1{
+    color:hsl(10, 30%, 5%);
+    font-size:2.5em;
+    text-align: center;
+    padding:0.35em 0;
+    width: 100%;
+}
+header p{
+    font-weight: 600;
+    color:hsl(266, 4%, 5%);
+    text-align: center;
+}
+
+main img{
+    display:block;
+    width:55%;
+    
+    border-radius: 2em;
+    margin:2em auto;
+    border:5px solid black;
+
+    
+    height: auto;
+    max-width: 625px;
+
+}
+#img-caption{
+    background-color: hsla(0,100%,0%,0.8);
+    text-align: center;
+    margin:33%;
+    font-size:1em;
+    font-style: normal;
+}
+.quote{
+    background-color: hsla(0,100%,0%,0.4);
+    font-family: 'Red Rose', cursive;
+    font-size: 2.5em;
+    margin: 0 auto;
+    width:78%;
+    padding:0.2em;
+    color:whitesmoke;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+}
+#link{
+    text-align: center;
+    font-style: normal;
+    font-size: small;
+}
+#link a{
+    color:salmon;
+}
+footer{
+    margin:2em auto;
+    width:70%;
+    text-align: center;
+    font-family: monospace;
+    color:snow;
+    background-color: #1c1c36;
+}
